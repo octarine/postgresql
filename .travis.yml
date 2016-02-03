@@ -38,4 +38,4 @@ script:
   - ./tests/idempotence_check.sh idempotence_out
 
 notifications:
-  - webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
