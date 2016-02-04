@@ -9,6 +9,10 @@ env:
   - ROLE_OPTIONS="postgresql_version=9.4 postgresql_shared_buffers=32MB"
   - ROLE_OPTIONS="postgresql_version=9.5 postgresql_shared_buffers=32MB"
 
+branches:
+  only:
+    - "master"
+
 before_install:
   # Remove the PostgreSQL installed by Travis
   - sudo apt-get purge pgdg-keyring '^postgresql.*' -y
