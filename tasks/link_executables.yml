@@ -1,0 +1,9 @@
+# file: postgresql/tasks/link_executable.yml
+
+- name: Link postgres executables to /usr/bin
+  alternatives:
+    path: "{{ postgresql_bin_directory}}/{{ item }}"
+    link: "/usr/bin/{{ item }}"
+    name: "{{ item }}"
+  with_items:
+    - "pg_config"
