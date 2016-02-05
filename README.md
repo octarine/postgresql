@@ -1,5 +1,7 @@
 ## octarine - PostgreSQL [![Build Status](https://travis-ci.org/octarine/postgresql.png?branch=master)](https://travis-ci.org/octarine/postgresql)
 
+[![Join the chat at https://gitter.im/octarine/postgresql](https://badges.gitter.im/octarine/postgresql.svg)](https://gitter.im/octarine/postgresql?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Ansible role which installs and configures PostgreSQL, extensions, databases and users.
 
 
